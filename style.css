@@ -41,16 +41,19 @@
     background-color:grey ;
 }
 
+#main-content{
+    display: flex;
+    flex-direction: row;
+}
+.bd-title{
+    display: flex;
+}
 
-
-#bd-content{
+#bd-menu{
     padding: 2rem 1rem 4rem 4rem;
     display: flex;
     flex-direction: column;
     width: 60%;
-}
-.bd-title{
-    display: flex;
 }
 
 #bd{
@@ -79,6 +82,14 @@
 }
 
 #content-berita{
+    display: flex;
+    flex-direction: row;
+}
+.cb-title{
+    display: flex;
+}
+
+#cb-menu{
     display: flex;
     padding: 2rem 0;
     width: 40%;
